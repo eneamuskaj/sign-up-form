@@ -1,8 +1,8 @@
 body {
   display: block;
+  background-color: #eceef1;
 }
 .nav {
-  background-color: rgb(119, 119, 119);
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-left: 70%;
@@ -10,21 +10,56 @@ body {
 }
 
 .the-form {
-  background-color: rgb(143, 143, 143);
-  text-align: center;
+  margin: 0 auto;
+  width: 450px;
+  padding: 1em;
 }
 
-label {
+input {
   display: block;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px;
 }
 p {
   font-size: 12px;
   line-height: 1;
+}
+
+h2 {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: rgb(77, 77, 77);
+  font-weight: 100;
+}
+.form-content > p {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 1em;
+  padding: 20px;
+}
+
+.form-content {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  text-align: center;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  text-align: left;
 }
 
 button {
@@ -58,4 +93,6 @@ button {
   margin-top: 13px;
   padding-left: 20px;
   padding-right: 20px;
+  display: block;
+  margin: 0 auto;
 }
