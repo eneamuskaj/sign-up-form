@@ -3,16 +3,27 @@ body {
   background-color: #eceef1;
 }
 .nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 70%;
-  overflow: auto;
+  float: none;
+  height: 60px;
+  padding: 0 30px;
 }
 
+.nav2 {
+  float: right;
+  box-sizing: border-box;
+}
+.nav3 {
+  float: left;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+.dummy {
+  height: 200px;
+  float: left;
+}
 .the-form {
   margin: 0 auto;
   width: 450px;
-  padding: 1em;
 }
 
 input {
@@ -39,7 +50,9 @@ h2 {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   color: rgb(77, 77, 77);
-  font-weight: 100;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: -10px;
 }
 .form-content > p {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
@@ -60,6 +73,13 @@ h2 {
 label {
   display: block;
   text-align: left;
+  padding-left: 10px;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: normal;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 button {
@@ -85,8 +105,7 @@ button {
   cursor: pointer;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  height: 34px;
-  width: 100px;
+  height: 48px;
   margin-bottom: 0px;
   margin-left: 33px;
   margin-right: 33px;
